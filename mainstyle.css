@@ -1,0 +1,57 @@
+body {
+  background-color: #151515;
+}
+.fumo {
+  display: grid;
+  place-items: center;
+  height: 80vh;
+}
+#qwerty {
+  cursor: none;
+  background-color: #0000;
+  border: none;
+}
+#qwerty:focus {
+  outline: none;
+}
+#qwerty img {
+  transition: 1s ease;
+  cursor: not-allowed;
+}
+#qwerty:active img{
+  height: 190px;
+  width: 220px;
+  cursor: not-allowed;
+}
+#qwerty:disabled img {
+  height: 200px;
+  width: 200px;
+  cursor: not-allowed;
+}
+#home {
+  height: 50px;
+  width: 100px;
+  padding:0;
+  margin: 0;
+  border-color: darkred;
+  border-radius: 20px;
+  border-style: solid;
+  background-color: red;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: myFont;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+  cursor: none;
+}
+#home:active {
+  border-color: red;
+  background-color: darkred;
+}
+@font-face {
+  font-family: myfont;
+  src: url(/fonts/DFPPOPCorn-W12.ttf);
+}
