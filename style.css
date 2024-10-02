@@ -48,7 +48,7 @@ button:active {
 }
 @font-face {
   font-family: myFont;
-  src: url(/fonts/DFPPOPCorn-W12.ttf);
+  src: url(fonts/DFPPOPCorn-W12.ttf);
 }
 h1 {
   color: white;
